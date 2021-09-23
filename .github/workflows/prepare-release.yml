@@ -54,9 +54,6 @@ jobs:
           git tag -a ${{ github.event.inputs.newVersionTag }} -m ""
           git push origin master --follow-tags
       
-      - name: Unshallow (for GoReleaser)
-        run: git fetch --prune --unshallow
-      
       - name: Import GPG key
         id: import_gpg
         uses: paultyng/ghaction-import-gpg@v2.1.0
