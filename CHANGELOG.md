@@ -1,4 +1,9 @@
 
+## [v0.10.19](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.19) (23 September 2021)
+
+### Commits
+- [3e19079](https://github.com-work/zulh-civo/terraform-provider-civo/commit/3e19079a65411ceb3069de32c71a57b48e66bb56) - Update GH workflow
+
 ## [v0.10.18](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.18) (23 September 2021)
 
 ### Commits
