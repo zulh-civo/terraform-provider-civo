@@ -38,29 +38,22 @@ jobs:
           npm i -g auto-changelog@2.3.0
           auto-changelog --config=.auto-changelog-config --latest-version=${{ github.event.inputs.newVersionTag }}
       
-      - name: Add and commit generated docs and CHANGELOG.md
-        id: add_and_commit_generated_files
-        uses: test-room-7/action-update-file@v1
-        with:
-          branch: master
-          commit-msg: Update docs and CHANGELOG.md
-          file-path: |
-            docs/**/*.md
-            examples/**/*.tf
-            examples/**/*.sh
-            CHANGELOG.md
-          github-token: ${{ secrets.GHTOKEN }}
-      
       - name: Setup Git config
         run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
 
+      - name: Add and commit generated files
+        run: |
+          git add .
+          git commit -m "Update docs and CHANGELOG.md"
+
       - name: Create a tag and push
         run: |
           git pull origin master
-          git tag -a ${{ github.event.inputs.newVersionTag }} ${{ steps.add_and_commit_generated_files.outputs.commit-sha }} -m ""
+          git tag -a ${{ github.event.inputs.newVersionTag }} -m ""
           git push origin master --follow-tags
+  
   release:
     needs: prepare_release
     runs-on: ubuntu-latest
