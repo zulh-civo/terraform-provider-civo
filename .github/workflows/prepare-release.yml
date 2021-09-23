@@ -36,7 +36,7 @@ jobs:
       - name: Install and run auto-changelog CLI
         run: |
           npm i -g auto-changelog@2.3.0
-          auto-changelog --config=.auto-changelog-config
+          auto-changelog --config=.auto-changelog-config --latest-version=${{ github.event.inputs.newVersionTag }}
       
       - name: Add and commit generated docs and CHANGELOG.md
         uses: test-room-7/action-update-file@v1
