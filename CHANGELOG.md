@@ -1,4 +1,9 @@
 
+## [v0.10.17](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.17) (23 September 2021)
+
+### Commits
+- [e7e832c](https://github.com/zulh-civo/terraform-provider-civo/commit/e7e832c5378aad34a555edfa44f1565642197efa) - Add debug line to GH workflow
+
 ## [v0.10.16](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.16) (23 September 2021)
 
 ### Commits
