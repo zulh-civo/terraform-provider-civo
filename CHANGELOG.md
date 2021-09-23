@@ -1,4 +1,9 @@
 
+## [v0.10.24](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.24) (23 September 2021)
+
+### Commits
+- [5c8019c](https://github.com/zulh-civo/terraform-provider-civo/commit/5c8019c0ab620146562f94d654230b9c79c02317) - Remove "git fetch" before running GoReleaser
+
 ## [v0.10.23](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.23) (23 September 2021)
 
 ### Commits
