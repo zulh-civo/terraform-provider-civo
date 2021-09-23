@@ -14,9 +14,9 @@ jobs:
 
       - name: Unshallow
         run: |
+          git fetch --prune --unshallow
           echo "Current branch name is: $(git branch --show-current)"
           echo "Latest hash is: $(git rev-parse HEAD)"
-          git fetch --prune --unshallow
       
       - name: Set up Go
         uses: actions/setup-go@v2
@@ -60,9 +60,9 @@ jobs:
 
       - name: Pull latest changes (docs and CHANGELOG.md)
         run: |
+          git pull origin master
           echo "Current branch name is: $(git branch --show-current)"
           echo "Latest hash is: $(git rev-parse HEAD)"
-          git pull origin master
       
       - name: Set up Go
         uses: actions/setup-go@v2
