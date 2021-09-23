@@ -2,6 +2,7 @@
 ## [v0.10.21](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.21) (23 September 2021)
 
 ### Commits
+- [93e4dbd](https://github.com/zulh-civo/terraform-provider-civo/commit/93e4dbd24c15282bf594e6c2ac6f36ffa8829c58) - Replace GitHub scripts with Git CLI
 - [f932224](https://github.com/zulh-civo/terraform-provider-civo/commit/f9322246ff52ec09d4e7fb6701c8db5945df25e7) - Use GitHub scripts to create tag
 - [0893223](https://github.com/zulh-civo/terraform-provider-civo/commit/0893223b192dd21712dceafe1ed86d7dc19f5fc5) - Fix GitHub script
 
