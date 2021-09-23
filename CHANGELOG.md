@@ -1,4 +1,9 @@
 
+## [v0.10.25](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.25) (23 September 2021)
+
+### Commits
+- [e700ee0](https://github.com/zulh-civo/terraform-provider-civo/commit/e700ee0c061711c457e962befabf791c3175141b) - Change a data-source and resource file to see if docs generator works
+
 ## [v0.10.24](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.24) (23 September 2021)
 
 ### Commits
