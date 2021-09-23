@@ -3,6 +3,7 @@
 
 ### Commits
 - [1075a89](https://github.com/zulh-civo/terraform-provider-civo/commit/1075a89a721111d61a314bd49c129aeca0ef3df7) - Combine workflows
+- [69ca6ab](https://github.com/zulh-civo/terraform-provider-civo/commit/69ca6abadf673bb0b1484796dfc06f7338b62c21) - Add and commit files using Git CLI
 
 ## [v0.10.21](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.21) (23 September 2021)
 
