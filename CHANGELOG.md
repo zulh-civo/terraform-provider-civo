@@ -1,15 +1,21 @@
-## [v0.10.13](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.13) (23 September 2021)
 
-### Merged
+## [v0.10.14](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.14) (23 September 2021)
+
+### Commits
+- [f9757c9](https://github.com/zulh-civo/terraform-provider-civo/commit/f9757c940d42da1f6ead2048dd9aa17d0f968698) - Update docs and CHANGELOG.md
+- [39232d1](https://github.com/zulh-civo/terraform-provider-civo/commit/39232d1e27a312ae03843c4b6dadb5bc59b54e38) - Only show merged PRs and commits in changelog file if they exist
+- [94482a2](https://github.com/zulh-civo/terraform-provider-civo/commit/94482a2e9d21a092a8aab79dfe8a78f623d3ae96) - Update docs and CHANGELOG.md
+
+## [v0.10.13](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.13) (23 September 2021)
 
 ### Commits
 - [885f41b](https://github.com/zulh-civo/terraform-provider-civo/commit/885f41b82e3414f39f2103c73882dae97f3a62a9) - Update release workflow
-## [v0.10.12](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.12) (23 September 2021)
 
-### Merged
+## [v0.10.12](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.12) (23 September 2021)
 
 ### Commits
 - [70409f9](https://github.com/zulh-civo/terraform-provider-civo/commit/70409f9ad6c3adfc8d90a851787a450fd211faa2) - Modify GH Actions
+
 ## [v0.10.11](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.11) (17 September 2021)
 
 ### Merged
@@ -27,6 +33,7 @@
 
 ### Commits
 - [79c7fc1](https://github.com/zulh-civo/terraform-provider-civo/commit/79c7fc10f947d1fccca1f8f3994fb81053cfe60d) - Update the changelog
+
 ## [v0.10.10](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.10) (19 August 2021)
 
 ### Merged
@@ -44,38 +51,34 @@
 - [97dacba](https://github.com/zulh-civo/terraform-provider-civo/commit/97dacba8a910e0dc87e85fcaad52fbc78fb913d6) - Update the changelog
 - [9922b3b](https://github.com/zulh-civo/terraform-provider-civo/commit/9922b3bb7f96cd2d8552063a584d1dae48a43ed7) - Show an error message when nodes size is changed
 - [a94327e](https://github.com/zulh-civo/terraform-provider-civo/commit/a94327e06524723ad7ae08ac1da8a4ce822370a7) - Run 'go mod tidy'
-## [v0.10.9](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.9) (27 July 2021)
 
-### Merged
+## [v0.10.9](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.9) (27 July 2021)
 
 ### Commits
 - [e82f7ce](https://github.com/zulh-civo/terraform-provider-civo/commit/e82f7ce8bc846c5b7bc4040a60aecc974d42a378) - Updated the changelog
-## [v0.10.8](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.8) (26 July 2021)
 
-### Merged
+## [v0.10.8](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.8) (26 July 2021)
 
 ### Commits
 - [7dcacff](https://github.com/zulh-civo/terraform-provider-civo/commit/7dcacff47fdbd13fbb27090e16d5367dd887c3da) - Updated the changelog
-## [v0.10.7](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.7) (23 July 2021)
 
-### Merged
+## [v0.10.7](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.7) (23 July 2021)
 
 ### Commits
 - [476d924](https://github.com/zulh-civo/terraform-provider-civo/commit/476d924724379606ebc5328976b15a7d9c9351fc) - Updated the Changelog
 - [ba0089b](https://github.com/zulh-civo/terraform-provider-civo/commit/ba0089be2f8157a07a0d60ddd19e3a63b5d69614) - Fixed error in the ValidateNameSize function
-## [v0.10.6](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.6) (19 July 2021)
 
-### Merged
+## [v0.10.6](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.6) (19 July 2021)
 
 ### Commits
 - [431e5cf](https://github.com/zulh-civo/terraform-provider-civo/commit/431e5cfdf2cc1b1c3cb31d131e73c0b399cb4cf1) - Update the doc and the changelog
 - [33ad248](https://github.com/zulh-civo/terraform-provider-civo/commit/33ad24848ffa4f7b455159cd2cae601f96f4595b) - Fixed error in the format of the code
-## [v0.10.5](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.5) (13 July 2021)
 
-### Merged
+## [v0.10.5](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.5) (13 July 2021)
 
 ### Commits
 - [34d310f](https://github.com/zulh-civo/terraform-provider-civo/commit/34d310f73ceece473e83c874b478b0ceed61b5ac) - Update release.yml
+
 ## [v0.10.4](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.4) (16 June 2021)
 
 ### Merged
@@ -86,28 +89,26 @@
 - [077e3d7](https://github.com/zulh-civo/terraform-provider-civo/commit/077e3d723b89b16e54090006e1fa41fc6c78f291) - Fixed error in the firewall resource and add random name
 - [bc0465d](https://github.com/zulh-civo/terraform-provider-civo/commit/bc0465daa97d6a2cf0034afc55ef3b3a7753589b) - Updated the changelog
 - [4abb9b6](https://github.com/zulh-civo/terraform-provider-civo/commit/4abb9b697e0c92235bb769f073725d5c9b280878) - Updated the doc for instance and kubernetes resource
-## [v0.10.3](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.3) (13 June 2021)
 
-### Merged
+## [v0.10.3](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.3) (13 June 2021)
 
 ### Commits
 - [23ea76a](https://github.com/zulh-civo/terraform-provider-civo/commit/23ea76a642995de8973d8b1d129d502e1a700bab) - Updated the changelog
 - [3d5ddf1](https://github.com/zulh-civo/terraform-provider-civo/commit/3d5ddf18966513d804dc9014daaff32a571c9836) - Fixed error in the retry operation in kubernetes
-## [v0.10.2](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.2) (28 May 2021)
 
-### Merged
+## [v0.10.2](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.2) (28 May 2021)
 
 ### Commits
 - [24fb9cc](https://github.com/zulh-civo/terraform-provider-civo/commit/24fb9ccf68712148db130b765d15cbd1cbde0646) - Add node pool test, remove CIDR from network and fixed some deprecate function
 - [ccc7a6e](https://github.com/zulh-civo/terraform-provider-civo/commit/ccc7a6e0491198ea61b2fffd25cd7ef6336c4c8a) - Update Change log
 - [dbe386e](https://github.com/zulh-civo/terraform-provider-civo/commit/dbe386eac2c2f0562870aa177dc2730bb82638ec) - Updated the civogo lib to v0.2.47
-## [v0.10.1](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.1) (13 May 2021)
 
-### Merged
+## [v0.10.1](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.1) (13 May 2021)
 
 ### Commits
 - [54833b8](https://github.com/zulh-civo/terraform-provider-civo/commit/54833b85463152c8ab14235c36b99d50166322b7) - Update Changelog
 - [406bbea](https://github.com/zulh-civo/terraform-provider-civo/commit/406bbea64f092c5823f71dd8ae1d3437ac975df9) - Update the doc for datasource instance_size
+
 ## [v0.10.0](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.0) (11 May 2021)
 
 ### Merged
@@ -119,6 +120,7 @@
 - [df85511](https://github.com/zulh-civo/terraform-provider-civo/commit/df85511383542282fafbfcc8c81004e93a0ab0a8) - Addes more fix to the provider, updated the civogo lib
 - [a049b43](https://github.com/zulh-civo/terraform-provider-civo/commit/a049b432d99708fefd3af25910e0dc898d4f7898) - Updated to v2 of the SDK of terraform and add support for muti region
 - [dd2e51e](https://github.com/zulh-civo/terraform-provider-civo/commit/dd2e51e5e7debd1a41e74857c8f6fbfdd88a900d) - Cleaning the project
+
 ## [v0.9.23](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.23) (6 December 2020)
 
 ### Merged
@@ -131,40 +133,36 @@
 - [6d0876e](https://github.com/zulh-civo/terraform-provider-civo/commit/6d0876e2b689cdd3b3c69ab6a31fa811d455f8ca) - Updated the civogo lib to v0.2.23
 - [7882cc5](https://github.com/zulh-civo/terraform-provider-civo/commit/7882cc5a4bb8aaa50b240aa7582b331b87030f12) - Updated GitHub action for Lint
 - [5609ba2](https://github.com/zulh-civo/terraform-provider-civo/commit/5609ba28223fdad2e759101c5819a3a74aa76ed4) - fix(README): Fixed unauthenticated download guide
-## [v0.9.22](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.22) (26 November 2020)
 
-### Merged
+## [v0.9.22](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.22) (26 November 2020)
 
 ### Commits
 - [eb757ee](https://github.com/zulh-civo/terraform-provider-civo/commit/eb757ee4f6c0448975069f98a87f508dde3030e9) - Update the Change log
-## [v0.9.21](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.21) (25 September 2020)
 
-### Merged
+## [v0.9.21](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.21) (25 September 2020)
 
 ### Commits
 - [ef9d794](https://github.com/zulh-civo/terraform-provider-civo/commit/ef9d794eaf18c023710efc008d0c134aef977cf1) - Update the Change log
 - [3068faf](https://github.com/zulh-civo/terraform-provider-civo/commit/3068faf09940997802e28e5d53532a0e7715e589) - Updated the civogo lib to v0.2.19
 - [1b22c80](https://github.com/zulh-civo/terraform-provider-civo/commit/1b22c80ce7dd3bef56f88ac155c5537dcbbf20e0) - Updated the doc for kubernetes resource
-## [v0.9.20](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.20) (24 September 2020)
 
-### Merged
+## [v0.9.20](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.20) (24 September 2020)
 
 ### Commits
 - [da4842c](https://github.com/zulh-civo/terraform-provider-civo/commit/da4842c9f9a2c1a56030df5a9ab3c65968959b59) - Fixed issue in the kubernetes resource
 - [e62d8eb](https://github.com/zulh-civo/terraform-provider-civo/commit/e62d8eb11c0dd6d067ea8a8d89419f9c808c3111) - Update the Change log
-## [v0.9.19](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.19) (24 September 2020)
 
-### Merged
+## [v0.9.19](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.19) (24 September 2020)
 
 ### Commits
 - [30b621f](https://github.com/zulh-civo/terraform-provider-civo/commit/30b621ff9eaf65abeaaecf961e3f80cadbdbd6ce) - Changed kubernetes_version option now is required
-## [v0.9.18](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.18) (23 September 2020)
 
-### Merged
+## [v0.9.18](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.18) (23 September 2020)
 
 ### Commits
 - [63a1aa3](https://github.com/zulh-civo/terraform-provider-civo/commit/63a1aa39d89510962434f8292def744a0b34f2b8) - Update the Change log
 - [ed064a5](https://github.com/zulh-civo/terraform-provider-civo/commit/ed064a5ad052c0056e06f82df87b7a3278a56cb9) - Updated the civogo lib to v0.2.18
+
 ## [v0.9.17](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.17) (12 September 2020)
 
 ### Merged
@@ -176,68 +174,61 @@
 - [26522e5](https://github.com/zulh-civo/terraform-provider-civo/commit/26522e57489a6a31b1a77f1d90e673267b7280b0) - Update the Change log
 - [1171aed](https://github.com/zulh-civo/terraform-provider-civo/commit/1171aedb89fadb155869a4936608f11ad6460e6f) - Update the readme and clean go.mod
 - [38a311e](https://github.com/zulh-civo/terraform-provider-civo/commit/38a311e3b90e0968051e2946a6aae4371100767a) - Updated the civogo lib to the v0.2.17
-## [v0.9.16](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.16) (2 September 2020)
 
-### Merged
+## [v0.9.16](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.16) (2 September 2020)
 
 ### Commits
 - [932440f](https://github.com/zulh-civo/terraform-provider-civo/commit/932440f72f10fb742c008e3487ab0cf05d59743d) - Update Change log
 - [6e381d0](https://github.com/zulh-civo/terraform-provider-civo/commit/6e381d00de8e825a65468725d5e3a1f8efa7929c) - Update the goreleaser config
 - [942f59c](https://github.com/zulh-civo/terraform-provider-civo/commit/942f59cda12aeefea71283896ad4a496ff66cf03) - Added GPG to sing the binary
-## [v0.9.15](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.15) (17 August 2020)
 
-### Merged
+## [v0.9.15](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.15) (17 August 2020)
 
 ### Commits
 - [4a792b9](https://github.com/zulh-civo/terraform-provider-civo/commit/4a792b9aa68d49342183b0387c374fd6d42026a1) - Update the README, remove Progress resource section
 - [5793112](https://github.com/zulh-civo/terraform-provider-civo/commit/57931126daedcbb0bb034e99ee9dbc6f27a708c9) - Update the Change log
 - [bee9eb4](https://github.com/zulh-civo/terraform-provider-civo/commit/bee9eb4173b9999d3800cc2d1f78efb60cbb4a30) - Fixed bug in the kubernetes cluster resource
-## [v0.9.14](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.14) (3 August 2020)
 
-### Merged
+## [v0.9.14](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.14) (3 August 2020)
 
 ### Commits
 - [6db9f52](https://github.com/zulh-civo/terraform-provider-civo/commit/6db9f52471684c37489fb226a6b7fa881b685481) - Updated the Change log
 - [1df9921](https://github.com/zulh-civo/terraform-provider-civo/commit/1df99212a81c149678bd6b6ace594416967152a5) - Fixed error in the instance resource
 - [32c5e71](https://github.com/zulh-civo/terraform-provider-civo/commit/32c5e71f1c0f97859355bde6e80d1f8a911a25d8) - Updated the Change log
-## [v0.9.13](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.13) (17 July 2020)
 
-### Merged
+## [v0.9.13](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.13) (17 July 2020)
 
 ### Commits
 - [cd24e0a](https://github.com/zulh-civo/terraform-provider-civo/commit/cd24e0a992a0716ce0483c9622928a13516bfc1e) - Changed the direction in the firewall rule from inbound to ingress
 - [503db04](https://github.com/zulh-civo/terraform-provider-civo/commit/503db04beafc9112e60b83850cab44c6f7d5abc1) - Update change log
-## [v0.9.12](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.12) (7 July 2020)
 
-### Merged
+## [v0.9.12](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.12) (7 July 2020)
 
 ### Commits
 - [d5eaef1](https://github.com/zulh-civo/terraform-provider-civo/commit/d5eaef110b06aeaf6b9ef0227bb8cabc67040cd2) - Added CPU, RAM and SSD fields to Instance and Kubernetes module
 - [6e56ab4](https://github.com/zulh-civo/terraform-provider-civo/commit/6e56ab4b6a876f38eecd9081d9434d93ead81a10) - Update change log
 - [eb0123f](https://github.com/zulh-civo/terraform-provider-civo/commit/eb0123f1fe77000dd3821007640dc0b3d6b69e7e) - Update change log
-## [v0.9.11](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.11) (6 July 2020)
 
-### Merged
+## [v0.9.11](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.11) (6 July 2020)
 
 ### Commits
 - [bbb1821](https://github.com/zulh-civo/terraform-provider-civo/commit/bbb18219614e23d3e755a9e0edef4eb056c6b7c6) - Added kubernetes cluster data source
 - [0202a44](https://github.com/zulh-civo/terraform-provider-civo/commit/0202a445e1a2c2c9a599e32e37a6ab21ee58bb1a) - Update the change logs
 - [92073ab](https://github.com/zulh-civo/terraform-provider-civo/commit/92073abdb1d9de99236bb4f845fac2c65fb6cb88) - Added the make test to the github actions
-## [v0.9.10](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.10) (6 July 2020)
 
-### Merged
+## [v0.9.10](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.10) (6 July 2020)
 
 ### Commits
 - [d049062](https://github.com/zulh-civo/terraform-provider-civo/commit/d049062ed8271a85ac50f27605a2a098f43b0652) - Added the change logs
 - [8ab9073](https://github.com/zulh-civo/terraform-provider-civo/commit/8ab9073865bdcc8de942e408b5aad5d46e28b8d2) - Fixed error in the kubernetes cluster, the master's ip was not set
-## [v0.9.9](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.9) (6 July 2020)
 
-### Merged
+## [v0.9.9](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.9) (6 July 2020)
 
 ### Commits
 - [61987e1](https://github.com/zulh-civo/terraform-provider-civo/commit/61987e1ea54031bc14b3e1685bfaa55b87c752e6) - Added the SSH Key test and the Snapshot test
 - [75e69a8](https://github.com/zulh-civo/terraform-provider-civo/commit/75e69a8402c6ab8e80ab95478b2bfc832f14cf49) - Added new test
 - [68cca03](https://github.com/zulh-civo/terraform-provider-civo/commit/68cca0334e85a4ed9a17038bd6288d01de0d11b9) - Fixed kubernetes cluster
+
 ## [v0.9.8](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.8) (24 June 2020)
 
 ### Merged
@@ -246,53 +237,48 @@
 ### Commits
 - [25a1a6b](https://github.com/zulh-civo/terraform-provider-civo/commit/25a1a6b2d2c490f584df6b0ae39f82ed3c66f236) - Fixed error ins some test
 - [a3077b4](https://github.com/zulh-civo/terraform-provider-civo/commit/a3077b4e12bd804bb333ba630963e7a7d5d52134) - Upgrade the version of civogo lib
-## [v0.9.7](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.7) (22 June 2020)
 
-### Merged
+## [v0.9.7](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.7) (22 June 2020)
 
 ### Commits
 - [3a237d7](https://github.com/zulh-civo/terraform-provider-civo/commit/3a237d79986dbec11dd5c21a55fed759d80d3995) - Added new test
 - [400524a](https://github.com/zulh-civo/terraform-provider-civo/commit/400524a054d54954a12c530dc38303567020bb5e) - Added the first test to the project
 - [bd3664d](https://github.com/zulh-civo/terraform-provider-civo/commit/bd3664d992d404d2acdcd56a14bb77e2aa210a46) - Fixed error in the instances creation
-## [v0.9.6](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.6) (7 June 2020)
 
-### Merged
+## [v0.9.6](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.6) (7 June 2020)
 
 ### Commits
 - [0bb5787](https://github.com/zulh-civo/terraform-provider-civo/commit/0bb57878e0912946d59e0bcf9d601a8f02ec8f41) - Fixed error in all this files
 - [05ec3ec](https://github.com/zulh-civo/terraform-provider-civo/commit/05ec3ecb56936692917f2f93cb5c429bbf62326f) - Fix some error found in the code
 - [256b2e3](https://github.com/zulh-civo/terraform-provider-civo/commit/256b2e3667c787666ba6b6b9cf82ec8288afbab8) - Added the option to recreate resource if not found
-## [v0.9.5](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.5) (31 May 2020)
 
-### Merged
+## [v0.9.5](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.5) (31 May 2020)
 
 ### Commits
 - [549da91](https://github.com/zulh-civo/terraform-provider-civo/commit/549da91bf79946e85d0fd9e36066a6f57883d1a3) - - Update the documentation for data source instance_size and template
 - [a456dad](https://github.com/zulh-civo/terraform-provider-civo/commit/a456dad31da060baa62d6f4b29c2e29e4cf3ae27) - Added a error handler to the provider in the case of the token not was found
 - [4dfc12d](https://github.com/zulh-civo/terraform-provider-civo/commit/4dfc12da21e9af505a34ef04a55d81df646f281b) - Added default value to size and initial_user in the instance resource
-## [v0.9.4](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.4) (21 May 2020)
 
-### Merged
+## [v0.9.4](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.4) (21 May 2020)
 
 ### Commits
 - [40a1654](https://github.com/zulh-civo/terraform-provider-civo/commit/40a1654744728dbb9b8957f96d7f5d8fa822161b) - feat(DataSource): Added new data source
 - [559594a](https://github.com/zulh-civo/terraform-provider-civo/commit/559594aef9e926d73eafc315e7db7cff02207745) - feat(DataSource): Added new data source
 - [255aaf4](https://github.com/zulh-civo/terraform-provider-civo/commit/255aaf4675b27727762adbfda24210d5a3dcc883) - Added the new data source loadbalancer to get one loadbalancer from the civo cloud
-## [v0.9.3](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.3) (5 May 2020)
 
-### Merged
+## [v0.9.3](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.3) (5 May 2020)
 
 ### Commits
 - [807f086](https://github.com/zulh-civo/terraform-provider-civo/commit/807f086eced7e23a382eef293db28b89c8d76007) - Added support to add script
 - [08dad15](https://github.com/zulh-civo/terraform-provider-civo/commit/08dad1594a9ec26b31a493fe3efdaf9d02dece0d) - feat(instances): added support to add script
-## [v0.9.2](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.2) (24 April 2020)
 
-### Merged
+## [v0.9.2](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.2) (24 April 2020)
 
 ### Commits
 - [197425b](https://github.com/zulh-civo/terraform-provider-civo/commit/197425b7c2a4bf96661651b0d97d2c0de9316a54) - improved the data source filter
 - [48470cc](https://github.com/zulh-civo/terraform-provider-civo/commit/48470cc9317fd2208652529f89a746d37d4df671) - feat(datasource): improved the data source filter system
 - [c12905c](https://github.com/zulh-civo/terraform-provider-civo/commit/c12905c746175477e8cebb74ad2a201be8a01319) - feat: fister test
+
 ## [v0.9.1](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.1) (20 April 2020)
 
 ### Merged
@@ -300,6 +286,7 @@
 
 ### Commits
 - [71e4ade](https://github.com/zulh-civo/terraform-provider-civo/commit/71e4adeec38c3616e62de7fd2de889f4e2eb202f) - fix(Firewall): Fix a type error in the firewall
+
 ## [v0.9.0](https://github.com/civo/terraform-provider-civo/releases/tag/v0.9.0) (20 April 2020)
 
 ### Merged
