@@ -53,21 +53,9 @@ jobs:
           git pull origin master
           git tag -a ${{ github.event.inputs.newVersionTag }} -m ""
           git push origin master --follow-tags
-  
-  release:
-    needs: prepare_release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       
-      - name: Unshallow
+      - name: Unshallow (for GoReleaser)
         run: git fetch --prune --unshallow
-      
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.16.x
       
       - name: Import GPG key
         id: import_gpg
