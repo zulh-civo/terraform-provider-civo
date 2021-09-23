@@ -1,0 +1,57 @@
+name: Prepare release
+
+on:
+  workflow_dispatch:
+    inputs:
+      newVersionTag:
+        description: 'New version tag (e.g. v0.10.11)'     
+        required: true
+
+jobs:
+  prepare_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Unshallow
+        run: git fetch --prune --unshallow
+      
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16.x
+
+      - name: Install and run tfplugindocs CLI
+        run: |
+          mkdir downloads
+          cd downloads
+          wget https://github.com/hashicorp/terraform-plugin-docs/releases/download/v0.5.0/tfplugindocs_0.5.0_linux_amd64.zip
+          unzip tfplugindocs_0.5.0_linux_amd64.zip
+          cd ..
+          mv downloads/tfplugindocs .
+          ./tfplugindocs generate
+          rm -rf ./tfplugindocs downloads
+      
+      - name: Install and run auto-changelog CLI
+        run: |
+          npm i -g auto-changelog@2.3.0
+          auto-changelog --config=.auto-changelog-config
+      
+      - name: Add and commit generated docs and CHANGELOG.md
+        uses: test-room-7/action-update-file@v1
+        with:
+          branch: master
+          commit-msg: Update docs and CHANGELOG.md
+          file-path: |
+            docs/**/*.md
+            examples/**/*.tf
+            examples/**/*.sh
+            CHANGELOG.md
+          github-token: ${{ secrets.GHTOKEN }}
+      
+      - name: Create tag
+        uses: negz/create-tag@v1
+        with:
+          version: ${{ github.event.inputs.newVersionTag }}
+          token: ${{ secrets.GHTOKEN }}
