@@ -12,9 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: Unshallow
-        run: git fetch --prune --unshallow
-      
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
@@ -54,9 +51,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      
-      - name: Pull latest changes (docs and CHANGELOG.md)
-        run: git pull
       
       - name: Set up Go
         uses: actions/setup-go@v2
