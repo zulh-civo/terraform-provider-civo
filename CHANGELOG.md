@@ -3,6 +3,7 @@
 
 ### Commits
 - [f932224](https://github.com/zulh-civo/terraform-provider-civo/commit/f9322246ff52ec09d4e7fb6701c8db5945df25e7) - Use GitHub scripts to create tag
+- [0893223](https://github.com/zulh-civo/terraform-provider-civo/commit/0893223b192dd21712dceafe1ed86d7dc19f5fc5) - Fix GitHub script
 
 ## [v0.10.20](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.20) (23 September 2021)
 
