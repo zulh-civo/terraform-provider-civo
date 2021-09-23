@@ -39,6 +39,7 @@ jobs:
           auto-changelog --config=.auto-changelog-config --latest-version=${{ github.event.inputs.newVersionTag }}
       
       - name: Add and commit generated docs and CHANGELOG.md
+        id: add_and_commit_generated_files
         uses: test-room-7/action-update-file@v1
         with:
           branch: master
@@ -51,7 +52,13 @@ jobs:
           github-token: ${{ secrets.GHTOKEN }}
       
       - name: Create tag
-        uses: negz/create-tag@v1
+        uses: actions/github-script@v3
         with:
-          version: ${{ github.event.inputs.newVersionTag }}
-          token: ${{ secrets.GHTOKEN }}
+          github-token: ${{ secrets.GHTOKEN }}
+          script: |
+            github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: github.event.inputs.newVersionTag,
+              sha: steps.add_and_commit_generated_files.outputs.commit-sha
+            })
