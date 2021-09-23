@@ -1,4 +1,9 @@
 
+## [v0.10.23](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.23) (23 September 2021)
+
+### Commits
+- [4f6e1f4](https://github.com/zulh-civo/terraform-provider-civo/commit/4f6e1f483de9d154c0162eeadfc64ba6dca337c6) - Run everything in one workflow
+
 ## [v0.10.22](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.22) (23 September 2021)
 
 ### Commits
