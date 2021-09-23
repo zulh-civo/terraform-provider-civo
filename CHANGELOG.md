@@ -1,4 +1,9 @@
 
+## [v0.10.21](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.21) (23 September 2021)
+
+### Commits
+- [f932224](https://github.com/zulh-civo/terraform-provider-civo/commit/f9322246ff52ec09d4e7fb6701c8db5945df25e7) - Use GitHub scripts to create tag
+
 ## [v0.10.20](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.20) (23 September 2021)
 
 ### Commits
