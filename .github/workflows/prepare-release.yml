@@ -58,5 +58,6 @@ jobs:
 
       - name: Create a tag and push
         run: |
+          git pull origin master
           git tag -a ${{ github.event.inputs.newVersionTag }} ${{ steps.add_and_commit_generated_files.outputs.commit-sha }} -m ""
-          git push origin master  --follow-tags
+          git push origin master --follow-tags
