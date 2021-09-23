@@ -1,4 +1,9 @@
 
+## [v0.10.26](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.26) (23 September 2021)
+
+### Commits
+- [f4bf0ab](https://github.com/zulh-civo/terraform-provider-civo/commit/f4bf0abcff4cc6bd53073e6ece4bb64e275558cd) - Update job name
+
 ## [v0.10.25](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.25) (23 September 2021)
 
 ### Commits
