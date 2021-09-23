@@ -1,4 +1,9 @@
 
+## [v0.10.18](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.18) (23 September 2021)
+
+### Commits
+- [6284ff3](https://github.com/zulh-civo/terraform-provider-civo/commit/6284ff398adde1d7ed929a8d90376d5847b5c062) - Change command positions in GH workflow
+
 ## [v0.10.17](https://github.com/civo/terraform-provider-civo/releases/tag/v0.10.17) (23 September 2021)
 
 ### Commits
