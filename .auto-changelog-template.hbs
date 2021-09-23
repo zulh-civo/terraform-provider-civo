@@ -1,0 +1,13 @@
+{{#each releases}}
+  ## [{{title}}](https://github.com/civo/terraform-provider-civo/releases/tag/{{title}}) ({{niceDate}})
+
+  ### Merged
+  {{#each merges}}
+    - [#{{id}}]({{href}}) - {{message}}
+  {{/each}}
+
+  ### Commits
+  {{#each commits}}
+    - [{{shorthash}}]({{href}}) - {{subject}}
+  {{/each}}
+{{/each}}
