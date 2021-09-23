@@ -51,14 +51,12 @@ jobs:
             CHANGELOG.md
           github-token: ${{ secrets.GHTOKEN }}
       
-      - name: Create tag
-        uses: actions/github-script@v3
-        with:
-          github-token: ${{ secrets.GHTOKEN }}
-          script: |
-            github.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: ${{ github.event.inputs.newVersionTag }},
-              sha: ${{ steps.add_and_commit_generated_files.outputs.commit-sha }}
-            })
+      - name: Setup Git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+
+      - name: Create a tag and push
+        run: |
+          git tag -a ${{ github.event.inputs.newVersionTag }} ${{ steps.add_and_commit_generated_files.outputs.commit-sha }} -m ""
+          git push origin master  --follow-tags
