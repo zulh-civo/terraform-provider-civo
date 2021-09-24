@@ -3,12 +3,12 @@
 page_title: "civo_dns_domain_name Resource - terraform-provider-civo"
 subcategory: ""
 description: |-
-  Test description...
+  Test description #2...
 ---
 
 # civo_dns_domain_name (Resource)
 
-Test description...
+Test description #2...
 
 
 
