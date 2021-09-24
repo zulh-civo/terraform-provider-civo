@@ -13,7 +13,7 @@ import (
 func resourceDNSDomainName() *schema.Resource {
 	fmt.Print()
 	return &schema.Resource{
-		Description: "Test description...",
+		Description: "Test description #2...",
 		Schema: map[string]*schema.Schema{
 			"name": {
 				Type:         schema.TypeString,

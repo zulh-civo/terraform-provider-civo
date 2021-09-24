@@ -13,7 +13,7 @@ import (
 // using the id or the name of the domain
 func dataSourceDNSDomainName() *schema.Resource {
 	return &schema.Resource{
-		Description: "Test description...",
+		Description: "Test description #2...",
 		Read:        dataSourceDNSDomainNameRead,
 		Schema: map[string]*schema.Schema{
 			"id": {
